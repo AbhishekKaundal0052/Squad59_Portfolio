@@ -8,7 +8,7 @@ body{
 }
 .sidenav{
     position: relative;
-    background-color:red;
+    background-color:rgb(255, 0, 0);
     top:0vh;
     background-size: cover;
     color: white;
@@ -53,4 +53,38 @@ span{
 #feedback{
     background-color: red;
     height: 25px;
+}
+#welcome{
+    font-size: 50px;
+    color: white;
+    /* margin: auto; */
+    position: relative;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1::before
+{
+    content:attr(data-text);
+    position: absolute;
+    color: rgb(255, 0, 0);
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    /* border-right: 4px solid white; */
+    
+    animation: animate 7s linear infinite;
+    filter: drop-shadow(0 0 20px rgb(164, 63, 63))drop-shadow(0 0 50px white);
+} 
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width:61%;
+    }
+
 }
