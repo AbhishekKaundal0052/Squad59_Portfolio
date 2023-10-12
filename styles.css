@@ -5,8 +5,9 @@ body{
     background-image: url("https://lh3.googleusercontent.com/pw/ADCreHdH_PwrGnVHElJgJU0NrjVtIf25d1c0RcLb2rYK3aG0OrWSEtckeTp_4z8FnCzlxMpnuNcS2KPjN92Mu6EIU07hNISOsbUrJ1MKLEVxaArK8SHCgTY=w2400");
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.sidenav{
+.topnav {
     position: relative;
     background-color:rgb(255, 0, 0);
     top:0vh;
@@ -26,7 +27,7 @@ body{
     padding-bottom: 9px;
     text-align: center;
     background-color: red;
-    position: fixed;
+    position: absolute;
     top: 1.5%;
     height: 38px;
     right: 10%;
@@ -35,16 +36,20 @@ body{
     padding-left: 0;
 }
 
-span{   
+.topnav a{   
+    text-decoration: none;
+}
+span{
     color: white;
 }
+
 .feedback{
     text-align: right;
     background-color:red;
     height: 30px;
     width:20px;
     cursor:pointer;
-    position: fixed;
+    position: absolute;
     top: 1.5%;
     height: 28px;
     right: 5%;
@@ -62,6 +67,29 @@ span{
     text-align: center;
     font-style: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content{
+    margin-top: 334px;
+    margin-left: 1182px;
+   
+}
+.content a{
+    text-decoration: none;
+    font-size: 31px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    height: 50px;
+    width:250px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 90px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content a:hover{
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1::before
 {

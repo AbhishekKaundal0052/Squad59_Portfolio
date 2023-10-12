@@ -1,0 +1,62 @@
+body{
+    background-color: red;
+}
+section{
+    border: 2px solid black;
+    width: 87vw;
+    height: 290vh;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 144px;
+    padding-top: 71px;
+}
+.mentors{
+    display: flex;
+}
+.mentor1{
+ margin-left: auto;
+ text-align: center;
+}
+#mentor {
+    border: 1px solid black;
+    height: 236px;
+    width: 236px;
+    border-radius: 50%;
+}
+.mentor2{
+    margin-top: 0px;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 48px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.students{
+    display:flex;
+    margin-top: 56px;
+    flex-direction: row;
+}
+.students2{
+    display:flex;
+    text-align: center;
+}
+.student{
+    display:flex;
+    margin-top: 0px;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 48px;
+}
+#student{
+    display:flex;
+    border: 1px solid black;
+    height: 236px;
+    width: 236px;
+    border-radius: 50%;
+}
