@@ -55,6 +55,11 @@ span{
     right: 5%;
     width: 51px;
 }
+#feedback.active{
+    filter:blur(10px);
+    pointer-events: none;
+    user-select: none;
+}
 #feedback{
     background-color: red;
     height: 25px;
