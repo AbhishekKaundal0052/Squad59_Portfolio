@@ -5,6 +5,7 @@
 // }
 // );
 const blur = document.getElementById("info")
+const text= document.getElementsByClassName("mentor1")
 var click  = 0
 function toggle() {
     if (click === 0){
@@ -17,8 +18,33 @@ function toggle() {
     }
     
 }
-    var popup = document.getElementsByClassName("popuptext")
-    function information(){
-    
-}
 
+const infobr = document.getElementById('infobr')
+const namebr = document.getElementById('namebr')
+
+const names=["Nava","Akash"]
+// const info = [ "As a college student majoring in Operations and human resource management, I have gained valuable
+// experience in various aspects of the field. I have worked as a temporary staff at the college HR office for
+// two weeks, where I assisted in the recruitment process, screening candidates, and conducting phone
+// interviews. I have also completed a one-month internship at a medium-scale textile manufacturing unit,
+// where I learned about quality management and quality control techniques. Currently, I am doing another
+// internship at Kalvium, a leading educational technology company, as a Program Manager (Campus) Intern
+// at their Coimbatore base. In this role, I facilitate students and Tech mentors to use Kalvium's innovative
+// learning platform provide feedback to the development team and provide a bridge between the
+// management and the product team, "aiming at program success.,From: Nasriganj, Bihar
+// Bio: I am Akash Raj, Technical Mentor at Kalvium and handling Squad 59. I have good knowledge in HTML, CSS , JS, Python Programming, Data Analytics, Data cleansing, SQL, Excel and Machine Learning."]
+
+var info = [`"As a college student majoring in Operations and human resource management, I have gained valuable
+experience in various aspects of the field. I have worked as a temporary staff at the college HR office for
+two weeks, where I assisted in the recruitment process, screening candidates, and conducting phone
+interviews. I have also completed a one-month internship at a medium-scale textile manufacturing unit,
+where I learned about quality management and quality control techniques. Currently, I am doing another
+internship at Kalvium, a leading educational technology company, as a Program Manager (Campus) Intern
+at their Coimbatore base. In this role, I facilitate students and Tech mentors to use Kalvium's innovative
+learning platform provide feedback to the development team and provide a bridge between the
+management and the product team"`,`"I am Akash Raj, Technical Mentor at Kalvium and handling Squad 59. I have good knowledge in HTML, CSS , JS, Python Programming, Data Analytics, Data cleansing, SQL, Excel and Machine Learning."`]
+
+function pointing(index){
+    infobr.innerText= info[1];
+    namebr.innerText = names[1]
+}
